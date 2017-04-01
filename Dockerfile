@@ -1,5 +1,4 @@
-FROM quay.io/justcontainers/base-alpine:v0.12.2
-MAINTAINER tynor88 <tynor@hotmail.com>
+FROM alpine:latest
 
 # s6 environment settings
 ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=2
